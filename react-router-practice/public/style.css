@@ -1,0 +1,39 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	position: relative;
+}
+h1, h3 {
+	font-weight: 100;
+	color: #03a9f4;
+}
+.active-custom {
+	text-decoration: underline;
+}
+.active-contact-custom,
+.nav-contact-menu .nav-contact-item > a:hover,
+.nav-contact-menu .nav-contact-item > a:visited,
+.nav-contact-menu .nav-contact-item > a:active
+.nav-contact-menu .nav-contact-item > a:link {
+	background-color: #03a9f4;
+	color: #fff !important;
+}
+.nav-contact-menu .nav-contact-item > a{
+	display: inline-block;
+	padding: 5px 10px;
+	border: 1px solid #03a9f4;
+	border-radius: 3px;
+	text-decoration: none;
+}
+.app-title {
+	padding-left: 30px;
+	font-size: 46px;
+}
+.sidebar {
+	width: 300px;
+	padding-left: 30px;
+	position: absolute;
+}
+.content-container {
+	margin-left: 300px;
+	padding: 0 30px;
+}
